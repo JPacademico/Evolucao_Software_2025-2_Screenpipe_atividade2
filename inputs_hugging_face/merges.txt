@@ -1,0 +1,330 @@
+Merge pull request #1820 from m13v/main
+Merge pull request #1818 from m13v/main
+Merge branch 'main' of https://github.com/mediar-ai/screenpipe
+Merge pull request #1572 from m13v/bump-version-fix
+Merge pull request #1553 from m13v/bump-version-fix
+Merge pull request #1564 from m13v/screen-avatar
+Merge remote-tracking branch 'upstream/main' into bump-version-fix
+Merge pull request #1509 from m13v/example-pipe-continued
+Merge remote-tracking branch 'upstream/main' into example-pipe-continued
+Merge remote-tracking branch 'upstream/main' into pipe-create-example
+Merge remote-tracking branch 'upstream/main' into pipe-create-example
+Merge remote-tracking branch 'upstream/main' into a16z11labs
+fix
+Merge pull request #660 from Neptune650/faster_windows
+Merge pull request #658 from divanshu-go/cli-path
+Merge pull request #655 from ologbonowiwi/fix-changelog-generation
+Merge pull request #646 from m13v/ui_monitoring-fix
+Merge pull request #644 from Neptune650/patch-1
+Merge pull request #637 from Neptune650/self_hosted
+Merge pull request #636 from Neptune650/self_hosted
+Merge pull request #635 from EzraEllette/silence-vad-fix
+Merge pull request #634 from Neptune650/self_hosted
+Merge pull request #632 from tribhuwan-kumar/updater
+Merge pull request #630 from Neptune650/self_hosted
+Merge pull request #629 from Neptune650/self_hosted
+Merge pull request #628 from Neptune650/self_hosted
+Merge pull request #627 from Neptune650/self_hosted
+Merge pull request #621 from tribhuwan-kumar/updater
+Merge branch 'mediar-ai:main' into updater
+fix: conflict
+Merge pull request #622 from krushnarout/fix-light-mode
+Merge branch 'updater' of https://github.com/tribhuwan-kumar/screenpipe into updater
+Merge pull request #616 from mediar-ai/update-formula-x86_64-apple-darwin-b99d1a939485c066e49003e65f3be6f55f41fc59
+Merge pull request #615 from mediar-ai/update-formula-aarch64-apple-darwin-b99d1a939485c066e49003e65f3be6f55f41fc59
+Merge pull request #613 from mediar-ai/timeline-ui
+Merge pull request #593 from cparish312/add_to_database_endpoint
+Merge pull request #603 from Neptune650/patch-1
+Merge pull request #600 from Neptune650/fix_mkl
+Merge pull request #599 from Neptune650/mkl
+Merge branch 'mkl' of github.com:Neptune650/screenpipe into mkl
+Merge branch 'mediar-ai:main' into mkl
+Merge pull request #596 from mediar-ai/update-formula-aarch64-apple-darwin-4633a6ac6c0badabf8ba3f30caf1d5df62eadfec
+Merge branch 'main' into update-formula-aarch64-apple-darwin-4633a6ac6c0badabf8ba3f30caf1d5df62eadfec
+Merge pull request #597 from mediar-ai/update-formula-x86_64-apple-darwin-4633a6ac6c0badabf8ba3f30caf1d5df62eadfec
+Merge branch 'mediar-ai:main' into mkl
+Merge branch 'main' into add_to_database_endpoint
+Merge pull request #576 from TanGentleman/patch-1
+Merge pull request #577 from TanGentleman/patch-2
+Merge pull request #569 from ologbonowiwi/refactor/use-node-cron-for-scheduling-jobs
+Merge pull request #564 from ABucket/main
+Merge pull request #568 from ologbonowiwi/fix/linux-integration-tests
+Merge pull request #561 from EzraEllette/feat-filter-meeting-audio-devices
+Merge pull request #559 from EzraEllette/osx-output-device-filtering
+Merge pull request #565 from sravan1946/docs-edit-button
+Merge pull request #558 from Neptune650/patch-1
+Merge pull request #529 from Neptune650/add_ollama
+Merge pull request #549 from somethingwentwell/update-macos-docs
+Merge pull request #546 from eltociear/patch-4
+Merge pull request #547 from huachang/main
+Merge pull request #534 from EzraEllette/fix-display-audio
+Merge pull request #533 from devnoname120/fix-wget-config-interference
+Merge pull request #532 from ologbonowiwi/fix/handle-errors-thrown-on-endeavouros-build
+Merge pull request #514 from EzraEllette/add-cursorrules-to-repo
+Merge pull request #510 from tonybenoy/main
+Merge pull request #506 from EzraEllette/arabic-transcribe
+Merge remote-tracking branch 'upstream/main' into arabic-transcribe
+Merge pull request #505 from braxton-mills/docs-add-missing-install-linux
+Merge pull request #500 from mediar-ai/update-formula-x86_64-apple-darwin-81e72105ee8b3b1af553e0c083fd7a9dbae3e968
+Merge branch 'main' into update-formula-x86_64-apple-darwin-81e72105ee8b3b1af553e0c083fd7a9dbae3e968
+Merge pull request #501 from mediar-ai/update-formula-aarch64-apple-darwin-81e72105ee8b3b1af553e0c083fd7a9dbae3e968
+Merge pull request #491 from Neptune650/fix_ci
+Merge pull request #488 from ologbonowiwi/refactor/include-load-pipe-config-test-on-ci
+Merge pull request #482 from mediar-ai/update-formula-x86_64-apple-darwin-315f2daa35161e288b4caed73379cda2e4ad823e
+Merge branch 'main' into update-formula-x86_64-apple-darwin-315f2daa35161e288b4caed73379cda2e4ad823e
+Merge pull request #481 from mediar-ai/update-formula-aarch64-apple-darwin-315f2daa35161e288b4caed73379cda2e4ad823e
+Merge pull request #478 from Neptune650/fix_ci
+Merge branch 'mediar-ai:main' into fix_ci
+Merge branch 'fix_ci' of github.com:Neptune650/screenpipe into fix_ci
+Merge branch 'mediar-ai:main' into fix_ci
+Merge branch 'mediar-ai:main' into fix_ci
+Merge pull request #473 from Neptune650/remove_warnings
+Merge pull request #428 from charpeni/patch-1
+Merge QuincySan-CN_support branch, keeping our bun.lockb
+Merge pull request #392 from EzraEllette/386-add-update-to-tray
+Merge pull request #391 from tribhuwan-kumar/main
+Merge pull request #390 from Glavin001/docs/oss-desktop-app
+Merge pull request #389 from brianteeman/typos
+Merge pull request #379 from eltociear/patch-3
+Merge pull request #373 from m13v/reddit-pipe
+Merge pull request #372 from tribhuwan-kumar/main
+Merge branch 'mediar-ai:main' into main
+Merge branch 'mediar-ai:main' into main
+Merge pull request #363 from m13v/websocket
+Merge remote-tracking branch 'origin/main' into websocket
+Merge pull request #359 from mediar-ai/update-formula-aarch64-apple-darwin-6d027979e39c8dec6d8e9f9dc097645d7715661b
+Merge branch 'main' into update-formula-aarch64-apple-darwin-6d027979e39c8dec6d8e9f9dc097645d7715661b
+Merge pull request #360 from mediar-ai/update-formula-x86_64-apple-darwin-6d027979e39c8dec6d8e9f9dc097645d7715661b
+Merge pull request #357 from mediar-ai/update-formula-aarch64-apple-darwin-d59ea839453cb81d5f512cce35a7c707fa90a331
+Merge branch 'main' into update-formula-aarch64-apple-darwin-d59ea839453cb81d5f512cce35a7c707fa90a331
+Merge pull request #358 from mediar-ai/update-formula-x86_64-apple-darwin-d59ea839453cb81d5f512cce35a7c707fa90a331
+Merge pull request #355 from mediar-ai/update-formula-x86_64-apple-darwin-0d9713288319ab774a58e3988ed88054661dd5ae
+Merge branch 'main' into update-formula-x86_64-apple-darwin-0d9713288319ab774a58e3988ed88054661dd5ae
+Merge pull request #356 from mediar-ai/update-formula-aarch64-apple-darwin-0d9713288319ab774a58e3988ed88054661dd5ae
+Merge pull request #350 from mediar-ai/update-formula-x86_64-apple-darwin-801adac20b06ced1855fb7df94f5d747fa3a6540
+Merge branch 'main' into update-formula-x86_64-apple-darwin-801adac20b06ced1855fb7df94f5d747fa3a6540
+Merge pull request #351 from mediar-ai/update-formula-aarch64-apple-darwin-801adac20b06ced1855fb7df94f5d747fa3a6540
+Merge pull request #331 from bhupesh-sf/main
+Merge branch 'mediar-ai:main' into main
+Merge pull request #330 from kerosina/patch-fix-tokio-errors
+Merge branch 'main' into patch-fix-tokio-errors
+Merge pull request #337 from mediar-ai/update-formula-aarch64-apple-darwin-1074df3b89bf80e88e044304ade7c68da2485cd1
+Merge branch 'main' into update-formula-aarch64-apple-darwin-1074df3b89bf80e88e044304ade7c68da2485cd1
+Merge pull request #338 from mediar-ai/update-formula-x86_64-apple-darwin-1074df3b89bf80e88e044304ade7c68da2485cd1
+Merge pull request #325 from mediar-ai/min-max-size-in-api
+Merge branch 'main' into min-max-size-in-api
+Merge pull request #335 from jandremarais/c-bindings-conflict-fix
+Merge pull request #333 from mediar-ai/update-formula-aarch64-apple-darwin-edce2aea7091c97c185045938ba4b2794aed245a
+Merge branch 'main' into update-formula-aarch64-apple-darwin-edce2aea7091c97c185045938ba4b2794aed245a
+Merge pull request #334 from mediar-ai/update-formula-x86_64-apple-darwin-edce2aea7091c97c185045938ba4b2794aed245a
+Merge branch 'mediar-ai:main' into main
+Merge pull request #329 from kerosina/patch-1
+Merge pull request #326 from joegoldin/main
+Merge branch 'mediar-ai:main' into main
+Merge pull request #323 from m13v/meetings-feature-3
+Merge remote-tracking branch 'origin/main' into meetings-feature-3
+Merge pull request #315 from mediar-ai/fix-#277
+Merge pull request #317 from mediar-ai/update-formula-x86_64-apple-darwin-204bd22e8586ce360dcbd8ba2c518ccac901f2fe
+Merge pull request #316 from mediar-ai/update-formula-aarch64-apple-darwin-204bd22e8586ce360dcbd8ba2c518ccac901f2fe
+Merge pull request #314 from m13v/meetings-feature
+Merge pull request #309 from joegoldin/fix-ort-dep-copying
+Merge pull request #308 from joegoldin/feat-deepgram-api-key-ui
+Merge branch 'main' into feat-deepgram-api-key-ui
+Merge pull request #310 from sabrehagen/fix-broken-build
+Merge pull request #307 from joegoldin/fix-compilation-static-link-msvc
+Merge pull request #305 from m13v/dmg-background-png
+Merge pull request #238 from mediar-ai/fix-#199
+Merge branch 'main' into fix-#199
+Merge pull request #303 from joegoldin/m13v-manual-silero-vad-implementation
+Merge remote-tracking branch 'origin/fix-windows-compilation-vad' into m13v-manual-silero-vad-implementation
+Merge branch 'manual-silero-vad-implementation' into m13v-manual-silero-vad-implementation
+Merge branch 'main' into manual-silero-vad-implementation
+Merge pull request #298 from mediar-ai/update-formula-aarch64-apple-darwin-8359d1b40aece31a887f763f7b0317224a8fc1be
+Merge branch 'main' into update-formula-aarch64-apple-darwin-8359d1b40aece31a887f763f7b0317224a8fc1be
+Merge pull request #299 from mediar-ai/update-formula-x86_64-apple-darwin-8359d1b40aece31a887f763f7b0317224a8fc1be
+Merge pull request #292 from joegoldin/feat-run-in-bg
+Merge branch 'main' into feat-run-in-bg
+Merge pull request #286 from bhupesh-sf/pipe-security-check
+Merge branch 'main' into manual-silero-vad-implementation
+Merge pull request #291 from joegoldin/fix-windows-audio-vision-continuous-recording
+Merge pull request #290 from mediar-ai/pipe-logs
+Merge pull request #288 from mediar-ai/update-formula-aarch64-apple-darwin-8e4d63fa97e0b55f8c8cf96a0160fc61f3c71c37
+Merge pull request #287 from mediar-ai/update-formula-x86_64-apple-darwin-8e4d63fa97e0b55f8c8cf96a0160fc61f3c71c37
+Merge pull request #281 from mediar-ai/revert-pr-273
+Merge pull request #279 from mediar-ai/update-formula-aarch64-apple-darwin-5116e572f6b18c3b072baa096bfba98eff29b1a7
+Merge branch 'main' into update-formula-aarch64-apple-darwin-5116e572f6b18c3b072baa096bfba98eff29b1a7
+Merge pull request #280 from mediar-ai/update-formula-x86_64-apple-darwin-5116e572f6b18c3b072baa096bfba98eff29b1a7
+Merge pull request #275 from mediar-ai/update-formula-aarch64-apple-darwin-5fe73f32f075d9ef6fe6529abc283b396953dffc
+Merge branch 'main' into update-formula-aarch64-apple-darwin-5fe73f32f075d9ef6fe6529abc283b396953dffc
+Merge pull request #276 from mediar-ai/update-formula-x86_64-apple-darwin-5fe73f32f075d9ef6fe6529abc283b396953dffc
+Merge pull request #273 from m13v/onnx_implementation-wip
+merging updated main into vad implementation
+Merge pull request #271 from mediar-ai/update-formula-x86_64-apple-darwin-30f56ec8db0a9a10159f34fe4e1ddcc113bff646
+Merge branch 'main' into update-formula-x86_64-apple-darwin-30f56ec8db0a9a10159f34fe4e1ddcc113bff646
+Merge pull request #272 from mediar-ai/update-formula-aarch64-apple-darwin-30f56ec8db0a9a10159f34fe4e1ddcc113bff646
+Merge pull request #269 from mediar-ai/update-formula-aarch64-apple-darwin-0e24c5caa49839487e3c18fcd69931d1a61feccb
+Merge branch 'main' into update-formula-aarch64-apple-darwin-0e24c5caa49839487e3c18fcd69931d1a61feccb
+Merge pull request #270 from mediar-ai/update-formula-x86_64-apple-darwin-0e24c5caa49839487e3c18fcd69931d1a61feccb
+Merge pull request #267 from mediar-ai/update-formula-aarch64-apple-darwin-aebb9adbd09d50e29f009a6b56f7e45011e3d0c9
+Merge branch 'main' into update-formula-aarch64-apple-darwin-aebb9adbd09d50e29f009a6b56f7e45011e3d0c9
+Merge pull request #268 from mediar-ai/update-formula-x86_64-apple-darwin-aebb9adbd09d50e29f009a6b56f7e45011e3d0c9
+Merge pull request #252 from ac3xx/update-chatbot-model
+Merge pull request #251 from ac3xx/enhance-datetime-handling
+Merge pull request #265 from mediar-ai/update-formula-aarch64-apple-darwin-27c1e92ac3d3a87d028361fbec7b24d41503d55b
+Merge branch 'main' into update-formula-aarch64-apple-darwin-27c1e92ac3d3a87d028361fbec7b24d41503d55b
+Merge pull request #266 from mediar-ai/update-formula-x86_64-apple-darwin-27c1e92ac3d3a87d028361fbec7b24d41503d55b
+Merge pull request #262 from mediar-ai/update-formula-aarch64-apple-darwin-a2fbc5d08aace57ae3bfa546636567c0f9297c8f
+Merge branch 'main' into update-formula-aarch64-apple-darwin-a2fbc5d08aace57ae3bfa546636567c0f9297c8f
+Merge pull request #263 from mediar-ai/update-formula-x86_64-apple-darwin-a2fbc5d08aace57ae3bfa546636567c0f9297c8f
+Merge pull request #247 from mediar-ai/update-formula-x86_64-apple-darwin-934a087993402846530d7b359cab18a18977736f
+Merge branch 'main' into update-formula-x86_64-apple-darwin-934a087993402846530d7b359cab18a18977736f
+Merge pull request #248 from mediar-ai/update-formula-aarch64-apple-darwin-934a087993402846530d7b359cab18a18977736f
+Merge pull request #239 from mediar-ai/update-formula-x86_64-apple-darwin-779a27d49ac0ef4193ac06fd0bbc8015c3eff6a5
+Merge branch 'main' into update-formula-x86_64-apple-darwin-779a27d49ac0ef4193ac06fd0bbc8015c3eff6a5
+Merge pull request #240 from mediar-ai/update-formula-aarch64-apple-darwin-779a27d49ac0ef4193ac06fd0bbc8015c3eff6a5
+Merge pull request #237 from mediar-ai/fix-#236
+Merge pull request #233 from Csaba8472/fix/win-build
+Merge pull request #223 from mediar-ai/update-formula-x86_64-apple-darwin-d4fadbe91c3cf6c703c9fffcdcd173049bb9572c
+Merge branch 'main' into update-formula-x86_64-apple-darwin-d4fadbe91c3cf6c703c9fffcdcd173049bb9572c
+Merge pull request #224 from mediar-ai/update-formula-aarch64-apple-darwin-d4fadbe91c3cf6c703c9fffcdcd173049bb9572c
+Merge pull request #221 from mediar-ai/update-formula-aarch64-apple-darwin-c753674058bd86de484a893899ba563df1177a98
+Merge branch 'main' into update-formula-aarch64-apple-darwin-c753674058bd86de484a893899ba563df1177a98
+Merge pull request #222 from mediar-ai/update-formula-x86_64-apple-darwin-c753674058bd86de484a893899ba563df1177a98
+Merge pull request #218 from valeratrades/ga_style
+Merge pull request #212 from mediar-ai/update-formula-aarch64-apple-darwin-2010566abf791316572878f05a5c538d072f6de4
+Merge branch 'main' into update-formula-aarch64-apple-darwin-2010566abf791316572878f05a5c538d072f6de4
+Merge pull request #213 from mediar-ai/update-formula-x86_64-apple-darwin-2010566abf791316572878f05a5c538d072f6de4
+Merge pull request #210 from chandeldivyam/hotfix/issue-183/memory-leakage
+Merge pull request #211 from mediar-ai/ocr-confidence-added
+Merge pull request #207 from chandeldivyam/fix/issue-183/windows-ocr-benchmark
+Merge pull request #205 from mediar-ai/update-formula-x86_64-apple-darwin-fd875a63c46123d21ee76c21b217fe5e4675c39a
+Merge branch 'main' into update-formula-x86_64-apple-darwin-fd875a63c46123d21ee76c21b217fe5e4675c39a
+Merge pull request #206 from mediar-ai/update-formula-aarch64-apple-darwin-fd875a63c46123d21ee76c21b217fe5e4675c39a
+Merge pull request #197 from mediar-ai/video-ram-optimisation
+Merge branch 'main' into video-ram-optimisation
+Merge pull request #203 from mediar-ai/update-formula-x86_64-apple-darwin-51864c9b6f39d912ef5b217cefa44210d3ee9e61
+Merge branch 'main' into update-formula-x86_64-apple-darwin-51864c9b6f39d912ef5b217cefa44210d3ee9e61
+Merge pull request #204 from mediar-ai/update-formula-aarch64-apple-darwin-51864c9b6f39d912ef5b217cefa44210d3ee9e61
+Merge pull request #202 from louis030195/multi-monitor-screenshots
+Merge pull request #196 from chandeldivyam/fix/issue-127/implement-windows-audio-output
+Merge pull request #193 from louis030195/tagv2
+Merge pull request #189 from louis030195/db-bench
+Merge pull request #188 from louis030195/parallel-db-operations
+Merge pull request #185 from louis030195/real-pipe-store
+Merge branch 'main' into real-pipe-store
+Merge pull request #179 from louis030195/update-formula-aarch64-apple-darwin-ec637cdb05adb62490e027221d80918337f03115
+Merge branch 'main' into update-formula-aarch64-apple-darwin-ec637cdb05adb62490e027221d80918337f03115
+Merge pull request #180 from louis030195/update-formula-x86_64-apple-darwin-ec637cdb05adb62490e027221d80918337f03115
+Merge pull request #177 from louis030195/update-formula-x86_64-apple-darwin-a0273c3e9439eee5d26e5d36f66b479097564f9c
+Merge branch 'main' into update-formula-x86_64-apple-darwin-a0273c3e9439eee5d26e5d36f66b479097564f9c
+Merge pull request #178 from louis030195/update-formula-aarch64-apple-darwin-a0273c3e9439eee5d26e5d36f66b479097564f9c
+Merge pull request #175 from eltociear/patch-2
+Merge pull request #176 from louis030195/case-insensitive-search
+Merge pull request #174 from louis030195/macos-audio-output
+Merge pull request #172 from louis030195/search-by-window
+Merge pull request #166 from louis030195/apple-native-ocr-with-json
+Merge pull request #165 from louis030195/apple-ocr-improvements
+Merge pull request #164 from louis030195/search-by-chunked-text
+Merge pull request #163 from louis030195/friend-fixes-3
+Merge pull request #161 from lucasfernog-crabnebula/fix/release-action
+Merge pull request #158 from louis030195/update-formula-aarch64-apple-darwin-673280e88f811ec6713b0bd8a0727d858ae3ed80
+Merge branch 'main' into update-formula-aarch64-apple-darwin-673280e88f811ec6713b0bd8a0727d858ae3ed80
+Merge pull request #159 from louis030195/update-formula-x86_64-apple-darwin-673280e88f811ec6713b0bd8a0727d858ae3ed80
+Merge pull request #156 from louis030195/update-formula-x86_64-apple-darwin-e42532ec2aaef0d5503313d629acb0491ffd6a8c
+Merge branch 'main' into update-formula-x86_64-apple-darwin-e42532ec2aaef0d5503313d629acb0491ffd6a8c
+Merge pull request #157 from louis030195/update-formula-aarch64-apple-darwin-e42532ec2aaef0d5503313d629acb0491ffd6a8c
+Merge pull request #154 from louis030195/update-formula-x86_64-apple-darwin-be21c3c27f7d8aaccec91fba01b8ea73b0f92282
+Merge branch 'main' into update-formula-x86_64-apple-darwin-be21c3c27f7d8aaccec91fba01b8ea73b0f92282
+Merge pull request #155 from louis030195/update-formula-aarch64-apple-darwin-be21c3c27f7d8aaccec91fba01b8ea73b0f92282
+Merge pull request #151 from louis030195/friend-fixes
+Merge pull request #150 from louis030195/fix-db-search
+Merge pull request #148 from louis030195/readme-update4
+Merge pull request #147 from louis030195/chunking-fixed
+Merge pull request #146 from louis030195/migrations
+Merge pull request #126 from DmacMcgreg/feature/tray-icon-2024-08-08
+Merge pull request #144 from louis030195/update-formula-x86_64-apple-darwin-09d01eb92f1e58ec40fac5d985450e409943c72a
+Merge branch 'main' into update-formula-x86_64-apple-darwin-09d01eb92f1e58ec40fac5d985450e409943c72a
+Merge pull request #143 from louis030195/update-formula-aarch64-apple-darwin-09d01eb92f1e58ec40fac5d985450e409943c72a
+Merge pull request #140 from louis030195/update-formula-aarch64-apple-darwin-3951123efbc607617e821ae124d9bf71727b69a9
+Merge branch 'main' into update-formula-aarch64-apple-darwin-3951123efbc607617e821ae124d9bf71727b69a9
+Merge pull request #141 from louis030195/update-formula-x86_64-apple-darwin-3951123efbc607617e821ae124d9bf71727b69a9
+Merge pull request #139 from louis030195/chunking-back
+Merge pull request #138 from louis030195/removing-unnecessary-fields
+Merge pull request #137 from louis030195/unstructured-time-out
+Merge pull request #134 from louis030195/update-formula-aarch64-apple-darwin-a19ddf918106f847a4ce0e10d057ed85a778df22
+Merge branch 'main' into update-formula-aarch64-apple-darwin-a19ddf918106f847a4ce0e10d057ed85a778df22
+Merge pull request #135 from louis030195/update-formula-x86_64-apple-darwin-a19ddf918106f847a4ce0e10d057ed85a778df22
+Merge pull request #133 from louis030195/update-formula-aarch64-apple-darwin-fcac2d836df90c68028cdfff585e7f2b0857e62e
+Merge pull request #132 from louis030195/update-formula-x86_64-apple-darwin-fcac2d836df90c68028cdfff585e7f2b0857e62e
+Merge pull request #130 from louis030195/update-formula-aarch64-apple-darwin-8b9b051df7a906d647dce2e49577bb9e3435cb0f
+Merge branch 'main' into update-formula-aarch64-apple-darwin-8b9b051df7a906d647dce2e49577bb9e3435cb0f
+Merge pull request #131 from louis030195/update-formula-x86_64-apple-darwin-8b9b051df7a906d647dce2e49577bb9e3435cb0f
+Merge pull request #128 from louis030195/update-formula-aarch64-apple-darwin-6395e076ff1b2c1c5671ab8256252fb15b9a283c
+Merge branch 'main' into update-formula-aarch64-apple-darwin-6395e076ff1b2c1c5671ab8256252fb15b9a283c
+Merge pull request #129 from louis030195/update-formula-x86_64-apple-darwin-6395e076ff1b2c1c5671ab8256252fb15b9a283c
+Merge pull request #103 from louis030195/apple-native-ocr
+Merge pull request #125 from louis030195/friend-v2
+Merge pull request #124 from louis030195/local-text-chunking-and-db-operations
+Merge pull request #117 from louis030195/update-formula-x86_64-apple-darwin-55f90e488c3586c143acad7b51a2aa917130d7f3
+Merge branch 'main' into update-formula-x86_64-apple-darwin-55f90e488c3586c143acad7b51a2aa917130d7f3
+Merge pull request #118 from louis030195/update-formula-aarch64-apple-darwin-55f90e488c3586c143acad7b51a2aa917130d7f3
+Merge pull request #116 from louis030195/readme-modifications2
+Merge pull request #115 from louis030195/readme-modifications
+Merge pull request #112 from louis030195/ocr-backlog
+Merge pull request #111 from louis030195/unstructured-update
+Merge pull request #109 from louis030195/fix-windows-native-ocr
+Merge pull request #100 from louis030195/windows-native-ocr
+Merge pull request #99 from louis030195/friend-wearable-integration
+Merge pull request #97 from louis030195/update-formula-aarch64-apple-darwin-530cb3d6e1632a86b7d5ed47b650725324d21abb
+Merge branch 'main' into update-formula-aarch64-apple-darwin-530cb3d6e1632a86b7d5ed47b650725324d21abb
+Merge pull request #98 from louis030195/update-formula-x86_64-apple-darwin-530cb3d6e1632a86b7d5ed47b650725324d21abb
+Merge pull request #95 from louis030195/update-formula-aarch64-apple-darwin-567ee537a99133fada3e4560518860f6c52708f1
+Merge branch 'main' into update-formula-aarch64-apple-darwin-567ee537a99133fada3e4560518860f6c52708f1
+Merge pull request #96 from louis030195/update-formula-x86_64-apple-darwin-567ee537a99133fada3e4560518860f6c52708f1
+Merge pull request #93 from louis030195/update-formula-aarch64-apple-darwin-c6a5c24aeaa6564b259e368df4f562017f6b136d
+Merge branch 'main' into update-formula-aarch64-apple-darwin-c6a5c24aeaa6564b259e368df4f562017f6b136d
+Merge pull request #94 from louis030195/update-formula-x86_64-apple-darwin-c6a5c24aeaa6564b259e368df4f562017f6b136d
+Merge pull request #91 from louis030195/cloud-OCR-using-unstructured
+Merge pull request #88 from louis030195/update-formula-aarch64-apple-darwin-68c61a43316d70bfa57541830d5dcd874d5c7cba
+Merge branch 'main' into update-formula-aarch64-apple-darwin-68c61a43316d70bfa57541830d5dcd874d5c7cba
+Merge pull request #89 from louis030195/update-formula-x86_64-apple-darwin-68c61a43316d70bfa57541830d5dcd874d5c7cba
+Merge pull request #84 from louis030195/update-formula-x86_64-apple-darwin-70039a90f3151e8a3def662c23f0b2da558f99e8
+Merge branch 'main' into update-formula-x86_64-apple-darwin-70039a90f3151e8a3def662c23f0b2da558f99e8
+Merge pull request #85 from louis030195/update-formula-aarch64-apple-darwin-70039a90f3151e8a3def662c23f0b2da558f99e8
+Merge pull request #82 from louis030195/deepgram-audio-now
+Merge pull request #81 from louis030195/deepgram-audio
+Merge pull request #80 from louis030195/readme10
+Merge pull request #76 from louis030195/update-formula-x86_64-apple-darwin-3e1b3e4c6f64c96684c512d4ddbd4d54ef52ac4b
+Merge pull request #77 from louis030195/update-formula-aarch64-apple-darwin-3e1b3e4c6f64c96684c512d4ddbd4d54ef52ac4b
+Merge pull request #71 from eltociear/patch-1
+Merge pull request #67 from louis030195/audio-screencapturekit-fix
+Merge pull request #65 from louis030195/readme-update3
+Merge pull request #62 from louis030195/frame-db
+Merge pull request #61 from louis030195/ocr-db-5
+Merge pull request #60 from louis030195/ocr-db4
+Merge remote-tracking branch 'origin/main' into ocr-db4
+Merge pull request #58 from louis030195/ocr-query3
+Merge pull request #57 from louis030195/readme4-ocr-db
+Merge pull request #53 from louis030195/save-text-file-flag2
+Merge pull request #52 from louis030195/save-text-file-flag
+Merge pull request #51 from louis030195/logs
+Merge pull request #50 from louis030195/matt-ocr
+Merge remote-tracking branch 'origin/main' into matt-ocr
+Merge remote-tracking branch 'origin/main' into matt-ocr
+Merge remote-tracking branch 'origin/main' into matt-ocr
+Merge remote-tracking branch 'origin/main' into matt-ocr
+Merge pull request #44 from louis030195/d-#32
+Merge pull request #46 from wangshifeng/main
+Merge branch 'louis030195-main'
+Merge branch 'main' of https://github.com/louis030195/screen-pipe into louis030195-main
+Merge pull request #45 from louis030195/readme-3
+Merge pull request #1 from louis030195/main
+Merge pull request #36 from louis030195/readme-update2
+Merge pull request #35 from louis030195/readme-update
+Merge pull request #34 from louis030195/vercel_app_example_tuning
+Merge pull request #33 from louis030195/matt-dev2
+Merge pull request #31 from louis030195/fix-#29
+Merge pull request #26 from m13v/matt-dev
+Merge pull request #25 from louis030195/multi-audio
+Merge pull request #11 from louis030195/audio
+Merge pull request #9 from louis030195/dev

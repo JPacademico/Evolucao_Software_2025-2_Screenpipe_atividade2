@@ -1,0 +1,1166 @@
+v0.2.73
+=======
+v0.2.72
+=======
+What's Changed
+- Compute use nextjs by @louis030195 in #1681
+- fix: syntax error in install.ps1 by @divanshu-go in #1684
+Contributors
+@louis030195
+@divanshu-go
+louis030195 and divanshu-go
+v0.2.71
+=======
+v0.2.66
+=======
+What's Changed
+- fix: test-linux now work on github codespaces by @divanshu-go in #1616
+- also capture windows having no pid by @divanshu-go in #1615
+- custom port for mcp server by @divanshu-go in #1625
+- restore: confitmation dialog of resetting pipe by @tribhuwan-kumar in #1623
+- fix: native look on windows by @tribhuwan-kumar in #1621
+- fix: disk usage by @tribhuwan-kumar in #1624
+- fix: screenpipe cli not working on windows 10 11 by @divanshu-go in #1622
+Contributors
+@tribhuwan-kumar
+@divanshu-go
+tribhuwan-kumar and divanshu-go
+v0.2.65
+=======
+What's Changed
+- fix: search filter generator not working by @shaik-zeeshan in #1614
+- feat: tray icon for light and dark mode by @divanshu-go in #1613
+- fix linux build by @divanshu-go in #1612
+Contributors
+@shaik-zeeshan
+@divanshu-go
+shaik-zeeshan and divanshu-go
+v0.2.63
+=======
+What's Changed
+- feat: capture browser url in windows by @tribhuwan-kumar in #1489
+- Example pipe continued by @m13v in #1509
+- fix: date and time input not opening in search pipe by @shaik-zeeshan in #1510
+- fix dev cli encoding issue by @neo773 in #1518
+- Update release-app.yml by @divanshu-go in #1514
+- feat: support deepgram audio queries and fix streaming in openai structured outputs by @Gmin2 in #1465
+- feat: add icon, sidebar image to nsis setup for windows by @divanshu-go in #1528
+- Export frames as video by @shaik-zeeshan in #1471
+- OpenAPI Codegen by @neo773 in #1103
+- Remove emojis and ASCII Art from install.ps by @divanshu-go in #1536
+- dev pipe publish prebuild by @neo773 in #1541
+- fix: component add does not work and other improvements by @shaik-zeeshan in #1525
+- Example pipe continued by @m13v in #1546
+- Cli package publishing fix by @m13v in #1548
+- Pipe update fix by @m13v in #1547
+- bump pipe version if users confirms by @m13v in #1552
+- add deb to supported targets by @divanshu-go in #1557
+- confirmation dialog for reset all pipes button by @tribhuwan-kumar in #1543
+- screen-avatar by @m13v in #1564
+- Bump version fix by @m13v in #1553
+- cli version bumped by @m13v in #1572
+- refactor: screenpipe audio AudioManager by @EzraEllette in #1492
+- make released cli work on ubuntu 22 by @divanshu-go in #1573
+- chore: bump xcap by @ologbonowiwi in #1568
+- fix linux integration test by @divanshu-go in #1571
+- fix: url parsing issue and .next dir not found by @tribhuwan-kumar in #1542
+- refactor ai settings by @shaik-zeeshan in #1515
+- playwright for your deskop by @louis030195 in #1549
+- fix: settings preset component by @shaik-zeeshan in #1580
+- add settings preset components to registry by @shaik-zeeshan in #1581
+- Devcontainer to speed up linux development of screenpipe by @divanshu-go in #1577
+- fix linux build by @divanshu-go in #1584
+- fix windows build by @divanshu-go in #1585
+- rust fix by @m13v in #1588
+- make screenpipe run on Windows 10 by @divanshu-go in #1592
+Contributors
+@louis030195
+@EzraEllette
+@neo773
+@wesleymatosdev
+@m13v
+@tribhuwan-kumar
+@Gmin2
+@shaik-zeeshan
+@divanshu-go
+louis030195, EzraEllette, and 7 other contributors
+v0.2.62
+=======
+What's Changed
+- Pipe create example by @m13v in #1504
+Contributors
+@m13v
+m13v
+v0.2.61
+=======
+What's Changed
+- Update release-app.yml by @divanshu-go in #1500
+- remove libappindicator3-dev from release-app by @divanshu-go in #1502
+- Example pipe by @m13v in #1503
+Contributors
+@m13v
+@divanshu-go
+m13v and divanshu-go
+v0.2.60
+=======
+What's Changed
+- feat: add think markdown component by @shaik-zeeshan in #1468
+- Native look by @neo773 in #1452
+- fix bug: offset_index shall be set based on current number of transcriptions belongs to the chunk by @wsxiaoys in #1484
+- Fix duplicate bouncing icon by @neo773 in #1491
+- Optimize plugin update check by @neo773 in #1466
+- chore: move fts and stuff to frames fts by @louis030195 in #1472
+- fix: rewind pipe issues by @shaik-zeeshan in #1483
+- fix: possibly fix infinte powershell by @tribhuwan-kumar in #1497
+New Contributors
+@wsxiaoys made their first contribution in #1484
+Contributors
+@wsxiaoys
+@louis030195
+@neo773
+@tribhuwan-kumar
+@shaik-zeeshan
+wsxiaoys, louis030195, and 3 other contributors
+v0.2.59
+=======
+v0.2.58
+=======
+What's Changed
+- Meeting 022125 screenpipe by @m13v in #1448
+- add autostart toggle by @hunnywar in #1449
+- feat: rewind keyword search by @shaik-zeeshan in #1330
+- fix: layout shifting in rewind app by @shaik-zeeshan in #1455
+- feat: improve store pipes ux by @shaik-zeeshan in #1428
+- refactor: use official xcap version by @ologbonowiwi in #1457
+- feat: sort pipes by downloads count and creation date by @m13v in #1462
+- fix: layout shifting in app by @shaik-zeeshan in #1461
+- fix potential paths for linux by @hunnywar in #1463
+- feat: show local timezone on logs by @ologbonowiwi in #1460
+Contributors
+@wesleymatosdev
+@m13v
+@shaik-zeeshan
+@hunnywar
+wesleymatosdev, m13v, and 2 other contributors
+v0.2.57
+=======
+v0.2.56
+=======
+What's Changed
+- optimize API calls by @neo773 in #1431
+- Optimize api calls followup by @neo773 in #1435
+- Fix tauri args for Linux CI by @Neptune650 in #1439
+Contributors
+@Neptune650
+@neo773
+Neptune650 and neo773
+v0.2.55
+=======
+What's Changed
+- feat: improve local pipe dev by @shaik-zeeshan in #1406
+- remove mkl from linux build by @divanshu-go in #1430
+- fix: add fallback kill commands for windows by @tribhuwan-kumar in #1429
+- fix: overflowing of ui in app by @shaik-zeeshan in #1424
+- fix: wd on windows by @tribhuwan-kumar in #1433
+Contributors
+@tribhuwan-kumar
+@shaik-zeeshan
+@divanshu-go
+tribhuwan-kumar, shaik-zeeshan, and divanshu-go
+v0.2.54
+=======
+What's Changed
+- Sdk realtime by @m13v in #1421
+- Add Linux CI/CD build by @Neptune650 in #1385
+Contributors
+@Neptune650
+@m13v
+Neptune650 and m13v
+v0.2.53
+=======
+What's Changed
+- chore: use xcap version 0.3.3 (non-released yet) by @ologbonowiwi in #1423
+Contributors
+@wesleymatosdev
+wesleymatosdev
+v0.2.52
+=======
+What's Changed
+- Free memory in AXAccessibility API after use. by @neo773 in #1416
+- fix: drop pipes runtime by @tribhuwan-kumar in #1391
+Contributors
+@neo773
+@tribhuwan-kumar
+neo773 and tribhuwan-kumar
+v0.2.51
+=======
+What's Changed
+- Update release-app.yml by @hunnywar in #1374
+- fix: loss of settings by @shaik-zeeshan in #1352
+- possibly fix macOS Intel build by @neo773 in #1387
+- fix: remove camera assertion before sidecar initiation by @oliverqx in #1393
+- fix compile issues and revert code sign by @neo773 in #1396
+- Add speech ratio check to audio processing pipeline by @EzraEllette in #1370
+- fix: rollback xcap to 0.2.2 on windows by @ologbonowiwi in #1411
+- add missing methods to sdk by @tribhuwan-kumar in #1410
+- Capture browser url by @neo773 in #1381
+Contributors
+@oliverqx
+@EzraEllette
+@neo773
+@wesleymatosdev
+@tribhuwan-kumar
+@shaik-zeeshan
+@hunnywar
+oliverqx, EzraEllette, and 5 other contributors
+v0.2.50
+=======
+v0.2.43
+=======
+v0.2.42
+=======
+What's Changed
+- feat(sidecar): add permissions guard before starting sidecar by @oliverqx in #1348
+- feat(tauri): add prod configuration file by @oliverqx in #1349
+- Reenable event api by @louis030195 in #1363
+Contributors
+@oliverqx
+@louis030195
+oliverqx and louis030195
+v0.2.41
+=======
+v0.2.40
+=======
+What's Changed
+- Fix notion/obsidian pipe settings by @shaik-zeeshan in #1342
+- fixing discord link by @sreehariX in #1343
+- feat(cli): init cli login command by @oliverqx in #1294
+- revert device manager by @louis030195 in #1356
+New Contributors
+@sreehariX made their first contribution in #1343
+Contributors
+@oliverqx
+@louis030195
+@shaik-zeeshan
+@sreehariX
+oliverqx, louis030195, and 2 other contributors
+v0.2.39
+=======
+What's Changed
+- Make pipes update in background by @giraffekey in #1313
+- feat: websocket for health by @tribhuwan-kumar in #1310
+- fix: closing pipe window by @tribhuwan-kumar in #1317
+- Feedback refactor by @neo773 in #1323
+- fix fucking hell by @louis030195 in #1333
+Contributors
+@giraffekey
+@louis030195
+@neo773
+@tribhuwan-kumar
+giraffekey, louis030195, and 2 other contributors
+v0.2.38
+=======
+What's Changed
+- Fix screenpipe audio memory usage by @EzraEllette in #1312
+Contributors
+@EzraEllette
+EzraEllette
+v0.2.37
+=======
+What's Changed
+- feat: added response format by @Gmin2 in #1304
+Contributors
+@Gmin2
+Gmin2
+v0.2.30
+=======
+What's Changed
+- Fix-warnings by @EzraEllette in #1181
+- feat: add sentry plugin by @ologbonowiwi in #1179
+- feat: Share logs by @neo773 in #1216
+- feat: functionality of screenpipe cloud by @Gmin2 in #1215
+- Fix powershell script in getting-started.mdx by @LorenzoBloedow in #1217
+- fix: sse settings by @tribhuwan-kumar in #1219
+- fix: video render by @akhilender-bongirwar in #1234
+- new worker pushed, logs, removed duplicated auth check by @m13v in #1233
+New Contributors
+@Gmin2 made their first contribution in #1215
+@LorenzoBloedow made their first contribution in #1217
+@akhilender-bongirwar made their first contribution in #1234
+Contributors
+@EzraEllette
+@neo773
+@wesleymatosdev
+@m13v
+@LorenzoBloedow
+@akhilender-bongirwar
+@tribhuwan-kumar
+@Gmin2
+EzraEllette, neo773, and 6 other contributors
+v0.2.27
+=======
+What's Changed
+- analytics in sdk by @louis030195 in #1115
+- Linkedin5 by @m13v in #1125
+- set the port of pipes by @neo773 in #1128
+- fix commented out line by @neo773 in #1129
+- fix killing pipes by @neo773 in #1130
+Contributors
+@louis030195
+@neo773
+@m13v
+louis030195, neo773, and m13v
+v0.2.26
+=======
+v0.2.24
+=======
+What's Changed
+- fix: conditionally add Authorization header for screenpipe-cloud AI p… by @fortran01 in #1068
+- FIx Git ratelimiting by @neo773 in #1071
+- docs: improve windows guide in CONTRIBUTING.md by @hunnywar in #1074
+- Screenpipe js refactor and fix all pipes build issues. by @neo773 in #1079
+- run next.js pipes in production mode by @neo773 in #1083
+- update screenpipe/js to 1.0.0 by @neo773 in #1085
+New Contributors
+@hunnywar made their first contribution in #1074
+Contributors
+@fortran01
+@neo773
+@hunnywar
+fortran01, neo773, and hunnywar
+v0.2.23
+=======
+What's Changed
+- tray menu buttons to stop/start recording + shortcut by @neo773 in #1047
+- fix: querry response anthropic MCP by @kumarvivek1752 in #1014
+- Improves version extraction in installation script by @fortran01 in #1048
+- Fix nextjs error by @neo773 in #1059
+- Swap configs by @neo773 in #1050
+New Contributors
+@kumarvivek1752 made their first contribution in #1014
+@fortran01 made their first contribution in #1048
+Contributors
+@fortran01
+@neo773
+@kumarvivek1752
+fortran01, neo773, and kumarvivek1752
+v0.2.22
+=======
+What's Changed
+- Auth deeplink by @neo773 in #1041
+Contributors
+@neo773
+neo773
+v0.2.21
+=======
+What's Changed
+- feat: disable update check in bun tauri dev by @divanshu-go in #1030
+Contributors
+@divanshu-go
+divanshu-go
+v0.2.20
+=======
+What's Changed
+- fix settings by @neo773 in #1028
+- Make application binary smaller by @Neptune650 in #1009
+- use ollama api to fetch models by @neo773 in #1029
+- multi select enhancements by @neo773 in #1031
+- fix: self hosted windows nsis build error by @Dhanus3133 in #1033
+New Contributors
+@Dhanus3133 made their first contribution in #1033
+Contributors
+@Dhanus3133
+@Neptune650
+@neo773
+Dhanus3133, Neptune650, and neo773
+v0.2.19
+=======
+What's Changed
+- Make sure there aren't any duplicates in .map by @Neptune650 in #992
+- feat: add media validation and update video component by @tribhuwan-kumar in #1010
+- Feat/apple native ocr by @b4s36t4 in #829
+- Settings redesign by @neo773 in #995
+- feat: support h.265 videos on mac by @ologbonowiwi in #1012
+- fix accuracy_test by @EzraEllette in #1025
+New Contributors
+@b4s36t4 made their first contribution in #829
+Contributors
+@EzraEllette
+@b4s36t4
+@Neptune650
+@neo773
+@wesleymatosdev
+@tribhuwan-kumar
+EzraEllette, b4s36t4, and 4 other contributors
+v0.2.18
+=======
+What's Changed
+- add credit by @louis030195 in #983
+- fix: Update dependencies for hf-hub in multiple crates, add native-tls feature by @joshuaauger in #986
+- Update AudioContent type by @EzraEllette in #989
+- feat: data viewer table for screenpipe data by @neo773 in #980
+- Fix ONNX linking issues by @Neptune650 in #991
+- Fix-transcription-segments-ui by @EzraEllette in #1003
+New Contributors
+@joshuaauger made their first contribution in #986
+Contributors
+@joshuaauger
+@louis030195
+@EzraEllette
+@Neptune650
+@neo773
+joshuaauger, louis030195, and 3 other contributors
+v0.2.17
+=======
+What's Changed
+- Fix self hosted builds by @Neptune650 in #973
+- fix(timeline-ui): connection lost and scrolling errors by @tribhuwan-kumar in #979
+- fix: timedout issue with screenpipe-audio by @tribhuwan-kumar in #977
+- fix: Add native-tls to hf-hub by @neo773 in #982
+Contributors
+@Neptune650
+@neo773
+@tribhuwan-kumar
+Neptune650, neo773, and tribhuwan-kumar
+v0.2.16
+=======
+What's Changed
+- Fix app build errors related to User object inconsistencies by @24601 in #940
+- fix ffmpeg darwin arm64 by @neo773 in #947
+- fix: deepgram stt by @EzraEllette in #946
+- switch to audio when a speaker is selected in search by @EzraEllette in #960
+- feat: include hvc1 codec to load h.265 videos by @ologbonowiwi in #965
+New Contributors
+@24601 made their first contribution in #940
+Contributors
+@24601
+@EzraEllette
+@neo773
+@wesleymatosdev
+24601, EzraEllette, and 2 other contributors
+v0.2.14
+=======
+What's Changed
+- Copy code straight up by @Neptune650 in #858
+- feat(ui): redesign pipe store to match Obsidian layout by @onyedikachi-david in #848
+- fix: this should fix timeline crashing on windows by @tribhuwan-kumar in #859
+- Linkedin pipe2 by @m13v in #864
+- mild edits by @m13v in #897
+- Speaker id UI by @EzraEllette in #791
+- fix: audio_search by @EzraEllette in #902
+- Linkedin pipe2 by @m13v in #899
+- fix audio_transcriptions_table by @EzraEllette in #907
+- fix: clickable issue with status button on windows by @tribhuwan-kumar in #911
+- Add UPDATE and DELETE triggers for FTS tables by @Yashashwini2003 in #906
+- feat: avoid double server running by @ologbonowiwi in #900
+- deepgram in screenpipe cloud by @louis030195 in #898
+- fix(pipe): package resolving error by @tribhuwan-kumar in #925
+- (feat) macOS/Linux one-liner installation script by @neo773 in #918
+- stripe integration etc by @louis030195 in #909
+New Contributors
+@Yashashwini2003 made their first contribution in #906
+Contributors
+@louis030195
+@EzraEllette
+@onyedikachi-david
+@Neptune650
+@neo773
+@wesleymatosdev
+@m13v
+@tribhuwan-kumar
+@Yashashwini2003
+louis030195, EzraEllette, and 7 other contributors
+v0.2.13
+=======
+What's Changed
+- Fix composite again by @Neptune650 in #857
+Contributors
+@Neptune650
+Neptune650
+v0.2.8
+======
+What's Changed
+- fix: infinite loop of creating powershell windows by @tribhuwan-kumar in #802
+- Use specific target triple by @Neptune650 in #801
+- feat: add pipe for loom by @tribhuwan-kumar in #619
+- Update edge case tests and fix search bug by @Neptune650 in #790
+- chore: add package json on all pipes by @ologbonowiwi in #826
+- Make sure ONNX is copied into output folder by @Neptune650 in #830
+- add toggle to screenpipe overlay shortcut by @EzraEllette in #828
+- add unhealthy icon reminder by @ToSeven in #665
+Contributors
+@ToSeven
+@EzraEllette
+@Neptune650
+@wesleymatosdev
+@tribhuwan-kumar
+ToSeven, EzraEllette, and 3 other contributors
+v0.2.7
+======
+v0.2.4
+======
+v0.2.3
+======
+What's Changed
+- Reenable support for Windows MKL by @Neptune650 in #732
+- Sign Windows binaries with test key by @Neptune650 in #740
+- Copy necessary library for MKL support by @Neptune650 in #767
+Contributors
+@Neptune650
+Neptune650
+v0.1.98
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #597
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #596
+- Fix MKL support in Linux by @Neptune650 in #599
+- Use recursive copy for MKL by @Neptune650 in #600
+- Free up space in Ubuntu actions by @Neptune650 in #603
+- Add to database endpoint by @cparish312 in #593
+- Timeline UI by @louis030195 in #613
+Contributors
+@louis030195
+@cparish312
+@Neptune650
+louis030195, cparish312, and Neptune650
+v0.1.97
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #501
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #500
+- add simplified Chinese README by @varshith257 in #476
+- documentation: include CMake installation in Linux dependencies by @braxton-mills in #505
+- Screen time storyteller pipe by @onyedikachi-david in #443
+- Implement email exa search by @cparish312 in #502
+- update transcript processing to support multibyte characters by @EzraEllette in #506
+- Fix windows setup in documentation by @tonybenoy in #510
+- add .cursorrules by @EzraEllette in #514
+- Feat language settings by @EzraEllette in #509
+- Fixed screenpipe actions by @m13v in #498
+- Updated worker by @m13v in #518
+- Whisper-repeat-penalty by @EzraEllette in #528
+- fix: handle errors thrown on endeavouros build by @ologbonowiwi in #532
+- fix: build: ignore ~/.wgetrc to avoid interference by @devnoname120 in #533
+- fix: converge interleaved audio samples by @EzraEllette in #534
+- Update xcap to better support capturing screenhots on Wayland by @FractalFir in #477
+- feat: add ignored windows by @tribhuwan-kumar in #545
+- format_cell bug fix by @huachang in #547
+- docs: ceate README-ja_JP.md by @eltociear in #546
+- Show-screenpipe-shortcut by @EzraEllette in #524
+- docs: add mac manual prebuild by @somethingwentwell in #549
+- Restore ollama Windows and Linux support by @Neptune650 in #529
+- Fix Windows builds with Ollama by @Neptune650 in #558
+- Fix the edit this page button in docs by @sravan1946 in #565
+- filter incompatible devices from list_audio_devices by @EzraEllette in #559
+- add audio device selection to meetings by @EzraEllette in #561
+- Feat audio streaming by @EzraEllette in #557
+- test: fix integration and deno tests by @ologbonowiwi in #568
+- Use VCPKG_ROOT environment variable for vcpkg path in windows build script by @ABucket in #564
+- refactor: replace internal runtime with node-cron to manage scheduled jobs by @ologbonowiwi in #569
+- Fix CONTRIBUTING.md dead hyperlink by @TanGentleman in #577
+- optimize window validation logic by @TanGentleman in #576
+- Chunks device_name column by @cparish312 in #579
+- Add support for MKL acceleration by @Neptune650 in #588
+New Contributors
+@varshith257 made their first contribution in #476
+@braxton-mills made their first contribution in #505
+@onyedikachi-david made their first contribution in #443
+@cparish312 made their first contribution in #502
+@tonybenoy made their first contribution in #510
+@devnoname120 made their first contribution in #533
+@FractalFir made their first contribution in #477
+@huachang made their first contribution in #547
+@somethingwentwell made their first contribution in #549
+@sravan1946 made their first contribution in #565
+@ABucket made their first contribution in #564
+@TanGentleman made their first contribution in #577
+Contributors
+@devnoname120
+@huachang
+@tonybenoy
+@eltociear
+@louis030195
+@braxton-mills
+@somethingwentwell
+@EzraEllette
+@onyedikachi-david
+@cparish312
+@sravan1946
+@Neptune650
+@FractalFir
+@ABucket
+@wesleymatosdev
+@m13v
+@varshith257
+@tribhuwan-kumar
+@TanGentleman
+devnoname120, huachang, and 17 other contributors
+v0.1.96
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #481
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #482
+- ci: include loadPipeConfig tests and run deno tests on pipeline by @ologbonowiwi in #488
+- Fix CI (again) by @Neptune650 in #491
+- Hallucinations and tokens by @EzraEllette in #464
+New Contributors
+@ologbonowiwi made their first contribution in #488
+Contributors
+@louis030195
+@EzraEllette
+@Neptune650
+@wesleymatosdev
+louis030195, EzraEllette, and 2 other contributors
+v0.1.95
+=======
+What's Changed
+- fix: video rendering issue in windows by @tribhuwan-kumar in #372
+- Reddit pipe by @m13v in #373
+- chore: update screenpipe.js by @eltociear in #379
+- Fix assorted typos and spelling by @brianteeman in #389
+- Add step in getting started for building OSS desktop app by @Glavin001 in #390
+- fix: video rendering issue in windows by @tribhuwan-kumar in #391
+- 386 add update to tray by @EzraEllette in #392
+- Cn OCR support in MacOS by @QuincySan in #418
+- Fix typos in CONTRIBUTING.md by @charpeni in #428
+- Llm api by @EzraEllette in #438
+- fix: screenpipe support in china by @neo773 in #415
+- Integration test by @daveads in #449
+- test deno thru cli by @louis030195 in #462
+- Remove all the warnings from the code by @Neptune650 in #473
+- feat: add onboarding by @tribhuwan-kumar in #439
+- Fix CI by @Neptune650 in #478
+New Contributors
+@tribhuwan-kumar made their first contribution in #372
+@brianteeman made their first contribution in #389
+@Glavin001 made their first contribution in #390
+@EzraEllette made their first contribution in #392
+@QuincySan made their first contribution in #418
+@charpeni made their first contribution in #428
+@neo773 made their first contribution in #415
+@daveads made their first contribution in #449
+@Neptune650 made their first contribution in #473
+Contributors
+@brianteeman
+@Glavin001
+@charpeni
+@eltociear
+@louis030195
+@daveads
+@EzraEllette
+@Neptune650
+@neo773
+@QuincySan
+@m13v
+@tribhuwan-kumar
+brianteeman, Glavin001, and 10 other contributors
+v0.1.90
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #358
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #357
+Contributors
+@louis030195
+louis030195
+v0.1.89
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #356
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #355
+Contributors
+@louis030195
+louis030195
+v0.1.88
+=======
+v0.1.87
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #351
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #350
+Contributors
+@louis030195
+louis030195
+v0.1.86
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #338
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #337
+- Remove all references to blocking reqwest, replacing with async reqwest by @kerosina in #330
+- Added docs website using nextra by @bhupesh-sf in #331
+Contributors
+@bhupesh-sf
+@louis030195
+@kerosina
+bhupesh-sf, louis030195, and kerosina
+v0.1.85
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #334
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #333
+- fix: broken linux app builds by @jandremarais in #335
+- min size search to reduce results noise by @louis030195 in #325
+New Contributors
+@jandremarais made their first contribution in #335
+Contributors
+@jandremarais
+@louis030195
+jandremarais and louis030195
+v0.1.84
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #316
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #317
+- fix #277 by @louis030195 in #315
+- Meetings feature 3 by @m13v in #323
+- fix: wav audio sample rate by @joegoldin in #326
+- Dont panic if host has no default input device by @kerosina in #329
+New Contributors
+@kerosina made their first contribution in #329
+Contributors
+@joegoldin
+@louis030195
+@m13v
+@kerosina
+joegoldin, louis030195, and 2 other contributors
+v0.1.82
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #299
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #298
+- m13v manual silero vad implementation & fix: windows compilation with new vad library (#289 and #301) by @joegoldin in #303
+- Manual silero vad implementation by @m13v in #289
+- fix: #199 by @louis030195 in #238
+- Dmg background png by @m13v in #305
+- fix: static link msvc to fix linking on windows by @joegoldin in #307
+- (fix): fix type error causing broken build by @sabrehagen in #310
+- feat: configure deepgram api key in ui by @joegoldin in #308
+- fix: distribute onnx runtime libraries with build, re-enable silero vad on windows by @joegoldin in #309
+- Meetings feature by @m13v in #314
+New Contributors
+@sabrehagen made their first contribution in #310
+Contributors
+@sabrehagen
+@joegoldin
+@louis030195
+@m13v
+sabrehagen, joegoldin, and 2 other contributors
+v0.1.79
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #287
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #288
+- feat: stream logs & possibility to give conf to pipes by @louis030195 in #290
+- fix: windows audio vision continuous recording by @joegoldin in #291
+- feat(pipe): added a new pipe security check by @bhupesh-sf in #286
+- feat: run tauri app in background, single-instance by @joegoldin in #292
+New Contributors
+@joegoldin made their first contribution in #291
+@bhupesh-sf made their first contribution in #286
+Contributors
+@joegoldin
+@bhupesh-sf
+@louis030195
+joegoldin, bhupesh-sf, and louis030195
+v0.1.78
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #280
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #279
+- Revert "Merge pull request #273 from m13v/onnx_implementation-wip" by @louis030195 in #281
+Contributors
+@louis030195
+louis030195
+v0.1.77
+=======
+What's Changed
+- Onnx implementation wip by @m13v in #273
+- v0 dirty #241 by @louis030195 in #250
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #276
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #275
+Contributors
+@louis030195
+@m13v
+louis030195 and m13v
+v0.1.76
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #272
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #271
+Contributors
+@louis030195
+louis030195
+v0.1.75
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #268
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #267
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #270
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #269
+Contributors
+@louis030195
+louis030195
+v0.1.74
+=======
+v0.1.73
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #266
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #265
+- Enhance app datetime handling across timezones by @ac3xx in #251
+- Updated vercel-ai-chatbot model to gpt-4o-mini by @ac3xx in #252
+New Contributors
+@ac3xx made their first contribution in #251
+Contributors
+@ac3xx
+@louis030195
+ac3xx and louis030195
+v0.1.72
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #263
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #262
+Contributors
+@louis030195
+louis030195
+v0.1.71
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #248
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #247
+Contributors
+@louis030195
+louis030195
+v0.1.70
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #240
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #239
+Contributors
+@louis030195
+louis030195
+v0.1.69
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #224
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #223
+- fix windows build by @Csaba8472 in #233
+- fix #236 by @louis030195 in #237
+New Contributors
+@Csaba8472 made their first contribution in #233
+Contributors
+@Csaba8472
+@louis030195
+Csaba8472 and louis030195
+v0.1.68
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #222
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #221
+Contributors
+@louis030195
+louis030195
+v0.1.67
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #213
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #212
+- GA: check for unused dependencies by @valeratrades in #218
+New Contributors
+@valeratrades made their first contribution in #218
+Contributors
+@louis030195
+@valeratrades
+louis030195 and valeratrades
+v0.1.66
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #206
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #205
+- fix for ocr windows benchmark by @chandeldivyam in #207
+- Ocr confidence added by @m13v in #211
+- Hotfix/issue_183/memory leakage by @chandeldivyam in #210
+Contributors
+@louis030195
+@m13v
+@chandeldivyam
+louis030195, m13v, and chandeldivyam
+v0.1.65
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #204
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #203
+- set up performance metrics by @louis030195 in #197
+Contributors
+@louis030195
+louis030195
+v0.1.64
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #180
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #179
+- (wip) feat: real pipe store using deno runtime by @louis030195 in #185
+- parallel operations by @m13v in #188
+- db bench fixed and operation limit increased to 60 sec by @m13v in #189
+- Tagv2 by @louis030195 in #193
+- audio output fails when default_input_config() on output device [Windows] by @chandeldivyam in #196
+- Multi monitor screenshots by @m13v in #202
+New Contributors
+@chandeldivyam made their first contribution in #196
+Contributors
+@louis030195
+@m13v
+@chandeldivyam
+louis030195, m13v, and chandeldivyam
+v0.1.63
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #178
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #177
+Contributors
+@louis030195
+louis030195
+v0.1.62
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #159
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #158
+- fix(ci): create CrabNebula Cloud release on a separate job by @lucasfernog-crabnebula in #161
+- Friend fixes 3 by @m13v in #163
+- Search by chunked text by @m13v in #164
+- Apple ocr improvements by @m13v in #165
+- Apple native ocr with json by @m13v in #166
+- Search by window by @m13v in #172
+- Macos audio output by @louis030195 in #174
+- COLLATE NOCASE sql feature by @m13v in #176
+- chore: update screenpipe.ts by @eltociear in #175
+New Contributors
+@lucasfernog-crabnebula made their first contribution in #161
+Contributors
+@eltociear
+@louis030195
+@m13v
+@lucasfernog-crabnebula
+eltociear, louis030195, and 2 other contributors
+v0.1.61
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #157
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #156
+Contributors
+@louis030195
+louis030195
+v0.1.60
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #155
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #154
+Contributors
+@louis030195
+louis030195
+v0.1.59
+=======
+v0.1.58
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #143
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #144
+- Add system tray icon macos by @DmacMcgreg in #126
+- Migrations by @m13v in #146
+- processing weird symbols by @m13v in #147
+- readme installation commands on macos by @m13v in #148
+- reverted search as it was yesterday by @m13v in #150
+- Friend fixes by @m13v in #151
+New Contributors
+@DmacMcgreg made their first contribution in #126
+Contributors
+@DmacMcgreg
+@louis030195
+@m13v
+DmacMcgreg, louis030195, and m13v
+v0.1.57
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #141
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #140
+Contributors
+@louis030195
+louis030195
+v0.1.56
+=======
+v0.1.54
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #132
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #133
+Contributors
+@louis030195
+louis030195
+v0.1.53
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #131
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #130
+Contributors
+@louis030195
+louis030195
+v0.1.52
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #129
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #128
+Contributors
+@louis030195
+louis030195
+v0.1.51
+=======
+v0.1.49
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #98
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #97
+- Friend wearable integration by @m13v in #99
+- Windows native ocr by @louis030195 in #100
+- fix: windows native ocr by @louis030195 in #109
+- Unstructured update by @m13v in #111
+- only processes a frame when it is different from previous one, rese… by @m13v in #112
+- title and ocr engines by @m13v in #115
+- Readme modifications2 by @m13v in #116
+Contributors
+@louis030195
+@m13v
+louis030195 and m13v
+v0.1.48
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #96
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #95
+Contributors
+@louis030195
+louis030195
+v0.1.47
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #94
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #93
+Contributors
+@louis030195
+louis030195
+v0.1.46
+=======
+What's Changed
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #89
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #88
+- Cloud ocr using unstructured by @m13v in #91
+Contributors
+@louis030195
+@m13v
+louis030195 and m13v
+v0.1.45
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #85
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #84
+Contributors
+@louis030195
+louis030195
+v0.1.44
+=======
+What's Changed
+- Update Homebrew formula for aarch64-apple-darwin by @louis030195 in #77
+- Update Homebrew formula for x86_64-apple-darwin by @louis030195 in #76
+- readme xcode agreement by @m13v in #80
+- VAD library to detecte no-speech tokens, not deepgram by @m13v in #81
+- Deepgram audio now by @m13v in #82
+-  0.1.43...
+Contributors
+@louis030195
+@m13v
+louis030195 and m13v
+v0.1.43
+=======
+v0.1.42
+=======
+What's Changed
+- updated use cases, roadmap, removed part about ui by @m13v in #65
+- audio default host change from screencapturekit to default host by @m13v in #67
+Contributors
+@m13v
+m13v
+v0.1.41
+=======
+What's Changed
+- Ocr db4 by @m13v in #60
+- Ocr db 5 by @m13v in #61
+- more logs, character slicing fix for logs by @m13v in #62
+Contributors
+@m13v
+m13v
+v0.1.40
+=======
+What's Changed
+- Readme4 ocr db by @m13v in #57
+- Ocr query3 by @m13v in #58
+Contributors
+@m13v
+m13v
+v0.1.39
+=======
+v0.1.38
+=======
+v0.1.37
+=======
+What's Changed
+- new OCR logic by @m13v in #50
+- rounded logs example: [2024-07-20T01:55:38Z INFO screenpipe_server::… by @m13v in https://github.com//pull/51
+- Save text file flag from clie by @m13v in #52
+- forgot one file by @m13v in #53
+Contributors
+@m13v
+m13v
+v0.1.35
+=======
+What's Changed
+- Add initial sample data to allow users to query it as soon as they start the server by @m13v in #33
+- Vercel app example tuning by @m13v in #34
+- Readme update by @m13v in #35
+- readme update by @m13v in #36
+- Readme 3 by @m13v in #45
+- fix: InvalidFilename on windows by @wangshifeng in #46
+- 80% #32 by @louis030195 in #44
+New Contributors
+@wangshifeng made their first contribution in #46
+Contributors
+@wangshifeng
+@louis030195
+@m13v
+wangshifeng, louis030195, and m13v
+v0.1.34
+=======
+v0.1.33
+=======
+v0.1.32
+=======
+What's Changed
+- #29 fix by @louis030195 in #31
+Contributors
+@louis030195
+louis030195
+v0.1.31
+=======
+v0.1.29
+=======
+What's Changed
+- Multi audio by @louis030195 in #25
+Contributors
+@louis030195
+louis030195
+v0.1.28
+=======
+v0.1.27
+=======
+v0.1.26
+=======
+v0.1.23
+=======
+v0.1.22
+=======
