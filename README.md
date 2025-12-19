@@ -6,32 +6,32 @@
 
 ## Sumário
 
-1.  Visão Geral\
-2.  Objetivos do Sistema\
-3.  Modelos Utilizados e Motivação\
-4.  Arquitetura Geral\
+1.  Visão Geral
+2.  Objetivos do Sistema
+3.  Modelos Utilizados e Motivação
+4.  Arquitetura Geral
 5.  Dependências e Requisitos\
 6.  Como Executar o Estudo (Instruções de Reprodutibilidade)
-7.  Pipeline de Análise de Releases\
-8.  Pipeline Alternativo com Modelo Leve\
-9.  Pipeline de Comparação Semântica\
-10.  Geração de Conclusão Técnica\
-11.  Estrutura dos Resultados\
-12. Boas Práticas Adotadas\
-13. Possíveis Extensões\
+7.  Pipeline de Análise de Releases
+8.  Pipeline Alternativo com Modelo Leve
+9.  Pipeline de Comparação Semântica
+10.  Geração de Conclusão Técnica
+11.  Estrutura dos Resultados
+12. Boas Práticas Adotadas
+13. Possíveis Extensões
 14. Conclusão Final
 
 ------------------------------------------------------------------------
 
 ## 1. Visão Geral
 
-Este projeto implementa um **pipeline avançado de análise semântica
-aplicada à engenharia de software**, combinando **Modelos de Linguagem
-de Grande Porte (LLMs)** com **modelos de embeddings vetoriais** para
+Este projeto implementa um pipeline avançado de análise semântica
+aplicada à engenharia de software, combinando Modelos de Linguagem
+de Grande Porte (LLMs) com modelos de embeddings vetoriais para
 análise técnica profunda de artefatos textuais.
 
 O sistema foi projetado para execução local com **aceleração por GPU**,
-utilizando **quantização em 4 bits**, permitindo alto desempenho com uso
+utilizando quantização em 4 bits, permitindo alto desempenho com uso
 eficiente de memória.
 
 ------------------------------------------------------------------------
@@ -71,7 +71,7 @@ Motivação: Utilizado para a avaliação crítica final e validação das estra
 
 ## 4. Arquitetura Geral
 
-A arquitetura é organizada em **três camadas lógicas**, com
+A arquitetura é organizada em três camadas lógicas, com
 responsabilidades bem definidas.
 
 ### 4.1 Camada de Inferência com LLMs
@@ -140,8 +140,8 @@ Execução do Pipeline por Etapas: O projeto está dividido em notebooks especí
 
 Este pipeline processa logs de releases para identificar:
 
--   Estratégia de versionamento\
--   Cadência de entregas\
+-   Estratégia de versionamento
+-   Cadência de entregas
 -   Modelo de workflow (GitFlow, Trunk-based, híbrido)
 
 Utiliza prompts estruturados no formato nativo do modelo, com geração
@@ -154,8 +154,8 @@ determinística e controle rigoroso de contexto.
 O modelo **Qwen 1.5B** é utilizado como alternativa ultraleve, indicado
 para:
 
--   Ambientes com restrição de VRAM\
--   Execuções rápidas\
+-   Ambientes com restrição de VRAM
+-   Execuções rápidas
 -   Validação cruzada de análises
 
 Inclui limpeza explícita de memória e execução com `torch.no_grad()`.
@@ -187,10 +187,10 @@ exclusivamente os trechos mais similares.
 
 Características da conclusão:
 
--   Texto contínuo\
--   Linguagem técnica\
--   Múltiplos parágrafos\
--   Avaliação crítica e comparativa\
+-   Texto contínuo
+-   Linguagem técnica
+-   Múltiplos parágrafos
+-   Avaliação crítica e comparativa
 -   Alto grau de auditabilidade
 
 ------------------------------------------------------------------------
@@ -207,29 +207,29 @@ O resultado final contém:
 
 ## 11. Boas Práticas Adotadas
 
--   Quantização em 4 bits\
--   Separação clara de responsabilidades\
--   Modularidade\
--   Reprodutibilidade\
+-   Quantização em 4 bits
+-   Separação clara de responsabilidades
+-   Modularidade
+-   Reprodutibilidade
 -   Preparação para evolução em arquiteturas RAG
 
 ------------------------------------------------------------------------
 
 ## 12. Possíveis Extensões
 
--   Persistência em banco vetorial\
--   Integração com pipelines CI/CD\
--   Classificação automática de maturidade DevOps\
--   Interface web para visualização de similaridade\
+-   Persistência em banco vetorial
+-   Integração com pipelines CI/CD
+-   Classificação automática de maturidade DevOps
+-   Interface web para visualização de similaridade
 -   Análise longitudinal de documentos
 
 ------------------------------------------------------------------------
 
 ## 13. Conclusão Final
 
-Este pipeline representa uma **arquitetura madura e extensível de
-análise semântica**, adequada para **documentação estratégica**,
-**auditorias técnicas**, **governança de software** e **pesquisa
-aplicada em engenharia de software**.
+Este pipeline representa uma arquitetura madura e extensível de
+análise semântica, adequada para documentação estratégica,
+auditorias técnicas, governança de software e pesquisa
+aplicada em engenharia de software.
 
 ------------------------------------------------------------------------
