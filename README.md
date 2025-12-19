@@ -130,9 +130,9 @@ pip install -r requirements.txt
 
 Execução do Pipeline por Etapas: O projeto está dividido em notebooks específicos para cada fase da análise, localizados em src/modelos_hugging_face/:
 
-Etapa 1 - Análise Estrutural: Execute o Qwen.ipynb para a triagem inicial.
-Etapa 2 - Síntese Técnica: Execute o Mistral.ipynb para identificação de padrões.
-Etapa 3 - Avaliação Crítica: Execute o llama.ipynb para a validação final das estratégias de engenharia.
+-   Etapa 1 -> Análise Estrutural: Execute o Qwen.ipynb para a triagem inicial.
+-   Etapa 2 -> Síntese Técnica: Execute o Mistral.ipynb para identificação de padrões.
+-   Etapa 3 -> Avaliação Crítica: Execute o llama.ipynb para a validação final das estratégias de engenharia.
 
 ------------------------------------------------------------------------
 
