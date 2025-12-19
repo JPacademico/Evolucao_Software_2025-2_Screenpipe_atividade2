@@ -11,14 +11,15 @@
 3.  Modelos Utilizados e Motivação\
 4.  Arquitetura Geral\
 5.  Dependências e Requisitos\
-6.  Pipeline de Análise de Releases\
-7.  Pipeline Alternativo com Modelo Leve\
-8.  Pipeline de Comparação Semântica\
-9.  Geração de Conclusão Técnica\
-10.  Estrutura dos Resultados\
-11. Boas Práticas Adotadas\
-12. Possíveis Extensões\
-13. Conclusão Final
+6.  Como Executar o Estudo (Instruções de Reprodutibilidade)
+7.  Pipeline de Análise de Releases\
+8.  Pipeline Alternativo com Modelo Leve\
+9.  Pipeline de Comparação Semântica\
+10.  Geração de Conclusão Técnica\
+11.  Estrutura dos Resultados\
+12. Boas Práticas Adotadas\
+13. Possíveis Extensões\
+14. Conclusão Final
 
 ------------------------------------------------------------------------
 
@@ -107,6 +108,31 @@ memória, construção de prompts e consolidação de resultados.
 -   GPU: NVIDIA GeForce RTX 4060 (8GB VRAM) / Tesla T4 (Colab).
 -   Processador: AMD Ryzen 7 5800X 8-Core 3.80GHz
 -   Memória RAM: 32GB DDR4.
+
+------------------------------------------------------------------------
+
+## 6. Como Executar o Estudo (Instruções de Reprodutibilidade)
+
+Este guia permite a replicação integral dos resultados apresentados no tutorial.
+
+Clone o Repositório:
+
+```bash
+git clone https://github.com/JPacademico/Engenharia_SoftwareII_2025-2_T04_ScreenPipe-Pt2.git
+cd Engenharia_SoftwareII_2025-2_T04_ScreenPipe-Pt2
+```
+
+Instale as Dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+Execução do Pipeline por Etapas: O projeto está dividido em notebooks específicos para cada fase da análise, localizados em src/modelos_hugging_face/:
+
+Etapa 1 - Análise Estrutural: Execute o Qwen.ipynb para a triagem inicial.
+Etapa 2 - Síntese Técnica: Execute o Mistral.ipynb para identificação de padrões.
+Etapa 3 - Avaliação Crítica: Execute o llama.ipynb para a validação final das estratégias de engenharia.
 
 ------------------------------------------------------------------------
 
