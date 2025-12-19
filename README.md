@@ -62,7 +62,7 @@ Mistral-7B-Instruct-v0.3:
 
 Motivação: Responsável pela síntese e consolidação técnica. Para rodar em nossa GPU (RTX 4060) ou Colab T4, utilizamos quantização de 4 bits, o que permitiu extrair o conhecimento técnico do modelo sobre o fluxo de trabalho (Workflows) sem exceder a VRAM disponível.
 
-Meta-LLaMA 3.1-8B-Instruct:
+Meta-LLaMA 3.1-8B-Instruct
 
 Motivação: Utilizado para a avaliação crítica final e validação das estratégias de Engenharia de Software. Sua escolha justifica-se pelo alto grau de raciocínio lógico, sendo capaz de confirmar a aderência ao GitHub Flow e Rapid Releases, funcionando como o "validador" final de todo o processo.
 ------------------------------------------------------------------------
