@@ -1,71 +1,190 @@
-Documentação Técnica --- Pipeline de Análise Semântica, Releases e Comparação Textual com LLMs
-1. Visão Geral do Sistema
-Este projeto implementa um pipeline avançado de análise de engenharia de
-software, combinando modelos de linguagem de grande porte (LLMs) e
-modelos de embeddings semânticos, com três objetivos principais:
-1.	Analisar releases de software para inferir estratégias de
-versionamento, cadência de releases e modelo de workflow de
-desenvolvimento.
-2.	Executar análises comparativas entre textos técnicos, identificando
-convergência semântica, relações conceituais e grau de derivação
-entre documentos.
-3.	Gerar conclusões técnicas consolidadas, longas e discursivas,
-adequadas para documentação, auditoria técnica ou avaliação
-arquitetural.
-O pipeline foi projetado para rodar localmente com aceleração GPU,
-utilizando quantização 4-bit, otimizando consumo de memória e custo
-computacional.
-2. Arquitetura Geral
-A arquitetura do sistema é composta por três camadas principais:
-2.1 Camada de Inferência com LLMs
-Responsável por interpretação semântica de textos, geração de análises
-técnicas e produção de conclusões discursivas.
-Modelos utilizados: - mistralai/Mistral-7B-Instruct-v0.3 -
-Qwen/Qwen2.5-1.5B-Instruct
-2.2 Camada de Similaridade Semântica
-Responsável por vetorização de textos, cálculo de similaridade entre
-documentos e seleção de trechos semanticamente relevantes.
-Modelo utilizado: - BAAI/bge-base-en-v1.5
-2.3 Camada de Orquestração
-Responsável por leitura de arquivos, fragmentação de textos,
-gerenciamento de memória, construção de prompts e consolidação de
-resultados.
-3. Dependências e Ambiente
-Bibliotecas principais: - transformers - accelerate - bitsandbytes -
-torch - sentence-transformers - numpy
-Requisitos de hardware: - GPU NVIDIA com suporte CUDA - Recomendado ≥ 8
-GB VRAM para Mistral 7B em 4-bit
-4. Pipeline de Análise de Releases
-Este pipeline analisa logs de releases para identificar estratégia de
-versionamento, ritmo de entrega e práticas de colaboração.
+# 📘 Documentação Técnica Completa
+
+## Pipeline de Análise Semântica, Releases e Comparação Textual com LLMs
+
+------------------------------------------------------------------------
+
+## 🧭 Sumário
+
+1.  Visão Geral\
+2.  Objetivos do Sistema\
+3.  Arquitetura Geral\
+4.  Dependências e Requisitos\
+5.  Pipeline de Análise de Releases\
+6.  Pipeline Alternativo com Modelo Leve\
+7.  Pipeline de Comparação Semântica\
+8.  Geração de Conclusão Técnica\
+9.  Estrutura dos Resultados\
+10. Boas Práticas Adotadas\
+11. Possíveis Extensões\
+12. Conclusão Final
+
+------------------------------------------------------------------------
+
+## 1. Visão Geral
+
+Este projeto implementa um **pipeline avançado de análise semântica
+aplicada à engenharia de software**, combinando **Modelos de Linguagem
+de Grande Porte (LLMs)** com **modelos de embeddings vetoriais** para
+análise técnica profunda de artefatos textuais.
+
+O sistema foi projetado para execução local com **aceleração por GPU**,
+utilizando **quantização em 4 bits**, permitindo alto desempenho com uso
+eficiente de memória.
+
+------------------------------------------------------------------------
+
+## 2. Objetivos do Sistema
+
+O pipeline atende a três objetivos centrais:
+
+-   Analisar históricos de releases para inferir práticas de
+    versionamento e fluxo de trabalho.
+-   Comparar documentos técnicos para identificar convergência semântica
+    e possível derivação conceitual.
+-   Produzir conclusões técnicas discursivas, adequadas para
+    documentação, auditoria ou análise arquitetural.
+
+------------------------------------------------------------------------
+
+## 3. Arquitetura Geral
+
+A arquitetura é organizada em **três camadas lógicas**, com
+responsabilidades bem definidas.
+
+### 3.1 Camada de Inferência com LLMs
+
+Responsável pela interpretação semântica profunda, geração de análises
+técnicas e síntese discursiva.
+
+Modelos utilizados: - **Mistral-7B-Instruct v0.3** - **Qwen 2.5 1.5B
+Instruct**
+
+### 3.2 Camada de Similaridade Semântica
+
+Responsável pela vetorização e comparação matemática entre textos.
+
+Modelo utilizado: - **BAAI/bge-base-en-v1.5**
+
+### 3.3 Camada de Orquestração
+
+Responsável por leitura de arquivos, fragmentação textual, controle de
+memória, construção de prompts e consolidação de resultados.
+
+------------------------------------------------------------------------
+
+## 4. Dependências e Requisitos
+
+### 4.1 Bibliotecas
+
+-   transformers\
+-   accelerate\
+-   bitsandbytes\
+-   torch\
+-   sentence-transformers\
+-   numpy
+
+### 4.2 Requisitos de Hardware
+
+-   GPU NVIDIA com suporte CUDA\
+-   Recomendado **≥ 8 GB de VRAM** para execução do Mistral 7B em 4-bit
+
+------------------------------------------------------------------------
+
+## 5. Pipeline de Análise de Releases
+
+Este pipeline processa logs de releases para identificar:
+
+-   Estratégia de versionamento\
+-   Cadência de entregas\
+-   Modelo de workflow (GitFlow, Trunk-based, híbrido)
+
 Utiliza prompts estruturados no formato nativo do modelo, com geração
 determinística e controle rigoroso de contexto.
-5. Pipeline Alternativo com Modelo Leve
-O uso do Qwen 1.5B fornece uma alternativa ultraleve, adequada para
-ambientes com restrição de recursos, mantendo coerência analítica.
-6. Comparação Semântica entre Documentos
-O pipeline fragmenta documentos em blocos semânticos, gera embeddings
-normalizados, calcula similaridade por cosseno e seleciona os pares mais
+
+------------------------------------------------------------------------
+
+## 6. Pipeline Alternativo com Modelo Leve
+
+O modelo **Qwen 1.5B** é utilizado como alternativa ultraleve, indicado
+para:
+
+-   Ambientes com restrição de VRAM\
+-   Execuções rápidas\
+-   Validação cruzada de análises
+
+Inclui limpeza explícita de memória e execução com `torch.no_grad()`.
+
+------------------------------------------------------------------------
+
+## 7. Pipeline de Comparação Semântica
+
+### 7.1 Fragmentação
+
+Os documentos são divididos em blocos semanticamente coerentes, evitando
+truncamento excessivo.
+
+### 7.2 Vetorização
+
+Cada fragmento é convertido em embedding vetorial normalizado.
+
+### 7.3 Similaridade
+
+A similaridade é calculada via **cosseno**, selecionando os pares mais
 relevantes.
-7. Geração de Conclusão Técnica
-A conclusão é gerada por um LLM de grande porte, utilizando apenas os
-trechos mais similares, produzindo um texto contínuo, técnico e
-auditável.
-8. Estrutura dos Resultados
-⦁	Conclusão textual consolidada
-⦁	Pares de trechos semelhantes com score de similaridade
-9. Boas Práticas
-⦁	Quantização 4-bit
-⦁	Modularidade
-⦁	Reprodutibilidade
-⦁	Escalabilidade para RAG
-⦁	Auditoria semântica
-10. Extensões Futuras
-⦁	Banco vetorial persistente
-⦁	Integração CI/CD
-⦁	Análise automática de maturidade DevOps
-⦁	Interface web de visualização
-11. Conclusão
-O pipeline representa uma arquitetura madura de análise semântica
-aplicada à engenharia de software, adequada para documentação
-estratégica, auditoria técnica e pesquisa aplicada.
+
+------------------------------------------------------------------------
+
+## 8. Geração de Conclusão Técnica
+
+A conclusão final é gerada por um LLM de grande porte, utilizando
+exclusivamente os trechos mais similares.
+
+Características da conclusão:
+
+-   Texto contínuo\
+-   Linguagem técnica\
+-   Múltiplos parágrafos\
+-   Avaliação crítica e comparativa\
+-   Alto grau de auditabilidade
+
+------------------------------------------------------------------------
+
+## 9. Estrutura dos Resultados
+
+O resultado final contém:
+
+-   **Conclusão técnica consolidada**
+-   **Pares de trechos semanticamente semelhantes**, com score de
+    similaridade
+
+------------------------------------------------------------------------
+
+## 10. Boas Práticas Adotadas
+
+-   Quantização em 4 bits\
+-   Separação clara de responsabilidades\
+-   Modularidade\
+-   Reprodutibilidade\
+-   Preparação para evolução em arquiteturas RAG
+
+------------------------------------------------------------------------
+
+## 11. Possíveis Extensões
+
+-   Persistência em banco vetorial\
+-   Integração com pipelines CI/CD\
+-   Classificação automática de maturidade DevOps\
+-   Interface web para visualização de similaridade\
+-   Análise longitudinal de documentos
+
+------------------------------------------------------------------------
+
+## 12. Conclusão Final
+
+Este pipeline representa uma **arquitetura madura e extensível de
+análise semântica**, adequada para **documentação estratégica**,
+**auditorias técnicas**, **governança de software** e **pesquisa
+aplicada em engenharia de software**.
+
+------------------------------------------------------------------------
