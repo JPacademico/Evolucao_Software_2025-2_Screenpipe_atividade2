@@ -98,17 +98,15 @@ memória, construção de prompts e consolidação de resultados.
 
 ### 5.1 Bibliotecas
 
--   transformers\
--   accelerate\
--   bitsandbytes\
--   torch\
--   sentence-transformers\
--   numpy
+-   Clone o repositório: git clone [URL
+-   Instale as bibliotecas: pip install -r requirements.txt
+-   Execute o script principal: python src/main.py (ou abra os notebooks em src/modelos_hugging_face/).
 
 ### 5.2 Requisitos de Hardware
 
--   GPU NVIDIA com suporte CUDA\
--   Recomendado **≥ 8 GB de VRAM** para execução do Mistral 7B em 4-bit
+-   GPU: NVIDIA GeForce RTX 4060 (8GB VRAM) / Tesla T4 (Colab).
+-   Processador: AMD Ryzen 7 5800X 8-Core 3.80GHz
+-   Memória RAM: 32GB DDR4.
 
 ------------------------------------------------------------------------
 
