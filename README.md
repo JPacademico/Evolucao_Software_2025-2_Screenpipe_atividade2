@@ -65,6 +65,7 @@ Motivação: Responsável pela síntese e consolidação técnica. Para rodar em
 Meta-LLaMA 3.1-8B-Instruct
 
 Motivação: Utilizado para a avaliação crítica final e validação das estratégias de Engenharia de Software. Sua escolha justifica-se pelo alto grau de raciocínio lógico, sendo capaz de confirmar a aderência ao GitHub Flow e Rapid Releases, funcionando como o "validador" final de todo o processo.
+
 ------------------------------------------------------------------------
 
 ## 4. Arquitetura Geral
